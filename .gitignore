@@ -1,0 +1,22 @@
+# Maven / Spring Boot
+target/
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Frontend (Vite)
+frontend/node_modules/
+frontend/dist/
+
+# System
+.DS_Store
+Thumbbs.db
+
+# Docker — nie commituj lokalnych override'ów
+docker-compose.override.yml
+.env
